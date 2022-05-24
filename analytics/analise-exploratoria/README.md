@@ -90,3 +90,27 @@
 
 8. Qual a frequência relativa de cada categoria? Considere 1 para o cliente que cancelou e 0 para o cliente que não cancelou.
   - A frequência relativa de quem já cancelou é de 79.63% e de quem não cancelou é de 20.37.
+
+
+## Estudo de caso: Imóveis
+
+[Script R](https://github.com/Nandaoc/mba-exercises/blob/main/analytics/analise-exploratoria/estudo-de-caso-imoveis.R)
+
+1. Faça a distribuição de frequências da variável idade.
+  
+  | Faixa de Idade | Valor |
+  |---------|-----|
+  | Até 10 anos | 109 |
+  | 10 a 25 anos | 187 |
+  | Acima de 25 anos | 117 |
+
+b) Faça a distribuição de frequências da variável região.
+c) Faça a distribuição de frequências conjunta entre as variáveis idade do imóvel e região. Você
+acredita que a idade do imóvel sofre influência da região? Qual região se destaca por ter imóveis
+mais novos (até 10 anos)?
+d) Qual o valor do mínimo, máximo, mediana, Q1 e Q3 da variável distância ao metrô? Interprete os
+valores.
+e) Qual o valor do mínimo, máximo, mediana, Q1 e Q3 da variável valor do imóvel (R$ mil) por m2?
+Interprete os valores.
+f) Faça o gráfico de dispersão entre a distância ao metrô e o valor do imóvel (R$ mil) por m2. Você
+acredita que, em geral, quanto maior a distância do imóvel até o metrô, menor o seu valor?
