@@ -55,3 +55,37 @@
 12. A variável limite de cheque especial pode ser considerada simétrica?
   - Como podemos observar pelo histograma, o limite de cheque especial não pode ser considerado uma variável simétrica, pois     possui uma assimetria à direita. Seu coeficiente de assimetria, ou distorção, é de 2.79.
 
+
+## Estudo de caso: Telecom
+
+[Script R](https://github.com/Nandaoc/mba-exercises/blob/main/analytics/analise-exploratoria/estudo-de-caso-telecom.R)
+
+1. Quantos clientes a base de dados possui? 
+  - A base de dados possui 10000 clientes.
+
+2. Quantos são mulheres? E de forma relativa, quantos são mulheres?
+  - Há 4543 mulheres, que representam 45.43% do total de clientes.
+
+3. Quais são os valores da média, mediana, mínimo, máximo e quartis do tempo de relacionamento?
+  |         |  Valor |
+  |---------|--------|
+  | Mediana |  5000  |
+  | Mínimo  |  0000  |
+  | Máximo  |  10000 |
+  | Q1      |  3000  |
+  | Q3      |  7000  |
+  
+4. Com base na distribuição de frequências do tempo de relacionamento, qual a proporção de clientes que ainda não completaram 1 ano de relacionamento?
+  - Ainda não completaram 1 ano de relacionamento 4.13% das pessoas.
+
+5. Qual a proporção de clientes que possuem 10 anos de relacionamento?
+  - 4.9% das pessoas possuem 10 anos de relacionamento.
+
+6. Qual o % de clientes que têm 1 produto? E 2 produtos? Utilize a variável Num_de_Produtos.
+  - 50.84% das pessoas têm 1 produto e 45.9 possuem 2 produtos.
+
+7. Qual o total de clientes que já cancelaram os produtos? E que não cancelaram? 
+  - 7963 das pessoas já cancelaram e 2037 não cancelaram.
+
+8. Qual a frequência relativa de cada categoria? Considere 1 para o cliente que cancelou e 0 para o cliente que não cancelou.
+  - A frequência relativa de quem já cancelou é de 79.63% e de quem não cancelou é de 20.37.
