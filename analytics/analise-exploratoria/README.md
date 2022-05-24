@@ -16,7 +16,7 @@
   | Q1      | 47 |
   | Q3      | 70 |
   -
-    A partir desses dados, podemos dizer que 25% das pessoas clientes têm entre 30 e 17 anos de idade, enquanto 55% possuem         entre 47 e 70 anos e 25% têm idade entre 70 e 94 anos.
+    A partir desses dados, podemos dizer que 25% das pessoas clientes têm entre 30 e 17 anos de idade, enquanto 50% possuem         entre 47 e 70 anos e 25% têm idade entre 70 e 94 anos.
 
 3. Existem clientes com idades discrepantes? Analise o `boxplot`.
   - Não há valores de idades discrepantes (outlier), o `boxplot` não apresenta nenhum valor que ultrapasse seu limite superior ou   inferior.
@@ -118,10 +118,32 @@
 | Até 10 anos  | 80 | 29|
 | 10 a 25 anos | 51 | 136|
 | Acima de 25 anos | 24 | 93 |
+-
+  Pelos dados apresentados na distribuição de frequências, é possível dizer que há uma relação de influência da região na idade   do imóvel, podemos ver que, quanto maior a idade, menos quantidades de imóveis naquela faixa há na região norte; ao passo que   na região sul temos mais imóveis com mais de 10 anos do que na norte. A região norte se destaca por ter imóveis mais novos.
 
-d) Qual o valor do mínimo, máximo, mediana, Q1 e Q3 da variável distância ao metrô? Interprete os
-valores.
-e) Qual o valor do mínimo, máximo, mediana, Q1 e Q3 da variável valor do imóvel (R$ mil) por m2?
-Interprete os valores.
-f) Faça o gráfico de dispersão entre a distância ao metrô e o valor do imóvel (R$ mil) por m2. Você
-acredita que, em geral, quanto maior a distância do imóvel até o metrô, menor o seu valor?
+4. Qual o valor do mínimo, máximo, mediana, Q1 e Q3 da variável distância ao metrô? Interprete os valores.
+
+  |         | Valor |
+  |---------|-------|
+  | Mediana | 1.512 |
+  | Mínimo  | 0.769 |
+  | Máximo  | 2.142 |
+  | Q1      | 1.383 |
+  | Q3      | 1.777 |
+  -
+    A partir desses dados, podemos dizer que 25% da distância em metros está entre 1.383 e 1.512, enquanto 50% estão entre         1.383 e 1.777 e 25% estão entre 1.512 e 1.777.
+
+5. Qual o valor do mínimo, máximo, mediana, Q1 e Q3 da variável valor do imóvel (R$ mil) por m2? Interprete os valores.
+
+  |         | Valor |
+  |---------|-------|
+  | Mediana | 7680 |
+  | Mínimo  | 1520 |
+  | Máximo  | 15660 |
+  | Q1      | 5540 |
+  | Q3      | 9320 |
+  -
+    A partir desses dados, podemos dizer que 25% dos valores estão entre 5540 e 1680, enqaunto 50% estão entre 5540 e 9320 e       25% estão entre 7680 e 9320.
+
+6. Faça o gráfico de dispersão entre a distância ao metrô e o valor do imóvel (R$ mil) por m2. Você acredita que, em geral, quanto maior a distância do imóvel até o metrô, menor o seu valor?
+  - Sim, pois, pelo que podemos observar pelo gráfico de dispersão, parece haver uma tendência de queda nos preços dos imóveis   conforme aumenta sua distância do metrô.
