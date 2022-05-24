@@ -30,6 +30,5 @@ prop.table(table(dados$Num_de_Produtos))
 # Qual o total de clientes que já cancelaram os produtos? E que não cancelaram?
 table(dados$Cancelou)
 
-
 # Qual a frequência relativa de cada categoria? Considere 1 para o cliente que cancelou e 0 para o cliente que não cancelou?
 prop.table(table(dados$Cancelou))

@@ -8,10 +8,8 @@ library(readxl)
 # carrega dados excel
 dados <- read_excel('exercicio.xlsx', sheet = 'BasedeDados3')
 
-
 # Faça a distribuição de frequências da variável idade
 table(dados$Idade_imovel)
-
 
 # Faça a distribuição de frequências da variável idade
 table(dados$Regiao)

@@ -23,8 +23,6 @@ boxplot(dados$Idade)
 boxplot(dados$Rendimento_Total)
 
 # A partir de qual valor o rendimento e considerado discrepante
-# cálculo do limite superior:
-# LS = Q3 - 1.5*IIQ
 summary(dados$Rendimento_Total)
 limite_superior_rendimento <- 12378 + 1.5 * (12378 - 6380)
 limite_superior_rendimento
@@ -40,8 +38,6 @@ boxplot(dados$Salario)
 
 # A partir de qual valor o salário é considerado discrepante?
 summary(dados$Salario)
-# cálculo do limite superior:
-# LS = Q3 - 1.5*IIQ
 limite_superior_salario <- 10163 + 1.5 * (10163 - 5950)
 limite_superior_salario
 
@@ -55,8 +51,6 @@ boxplot(dados$Limite_Cheque_Especial)
 
 # A partir de qual valor o limite de cheque especial é considerado discrepante?
 summary(dados$Limite_Cheque_Especial)
-# cálculo do limite superior:
-# LS = Q3 - 1.5*IIQ
 limite_superior_cheque <- 6500 + 1.5 * (6500 - 2262)
 limite_superior_cheque
 
