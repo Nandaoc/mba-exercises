@@ -67,13 +67,13 @@
   - Há 4543 mulheres, que representam 45.43% do total de clientes.
 
 3. Quais são os valores da média, mediana, mínimo, máximo e quartis do tempo de relacionamento?
-  |         |  Valor |
-  |---------|--------|
-  | Mediana |  5000  |
-  | Mínimo  |  0000  |
-  | Máximo  |  10000 |
-  | Q1      |  3000  |
-  | Q3      |  7000  |
+  |      | Valor |
+  |---------|-----|
+  | Mediana | 5000 |
+  | Mínimo  | 0000 |
+  | Máximo  | 10000 |
+  | Q1      | 3000 |
+  | Q3      | 7000 |
   
 4. Com base na distribuição de frequências do tempo de relacionamento, qual a proporção de clientes que ainda não completaram 1 ano de relacionamento?
   - Ainda não completaram 1 ano de relacionamento 4.13% das pessoas.
