@@ -104,10 +104,21 @@
   | 10 a 25 anos | 187 |
   | Acima de 25 anos | 117 |
 
-b) Faça a distribuição de frequências da variável região.
-c) Faça a distribuição de frequências conjunta entre as variáveis idade do imóvel e região. Você
-acredita que a idade do imóvel sofre influência da região? Qual região se destaca por ter imóveis
-mais novos (até 10 anos)?
+2. Faça a distribuição de frequências da variável região.
+
+| Região | Valor |
+|--------|-------|
+| Norte | 155 |
+| Sul | 258 |
+
+3. Faça a distribuição de frequências conjunta entre as variáveis idade do imóvel e região. Você acredita que a idade do imóvel sofre influência da região? Qual região se destaca por ter imóveis mais novos (até 10 anos)?
+
+|              | Norte | Sul |
+|--------------|-------|-----|
+| Até 10 anos  | 80 | 29|
+| 10 a 25 anos | 51 | 136|
+| Acima de 25 anos | 24 | 93 |
+
 d) Qual o valor do mínimo, máximo, mediana, Q1 e Q3 da variável distância ao metrô? Interprete os
 valores.
 e) Qual o valor do mínimo, máximo, mediana, Q1 e Q3 da variável valor do imóvel (R$ mil) por m2?
