@@ -67,6 +67,7 @@
   - Há 4543 mulheres, que representam 45.43% do total de clientes.
 
 3. Quais são os valores da média, mediana, mínimo, máximo e quartis do tempo de relacionamento?
+
   |      | Valor |
   |---------|-----|
   | Mediana | 5000 |
